@@ -179,6 +179,18 @@
 
     if (item) {
       document.title = item.titulo + " | Ronay Auto Peças";
+
+   const badge = document.querySelector('.badge-status');
+
+      if (item.status === "Sem estoque") {
+        badge.innerText = "✖ Fora de Estoque";
+        badge.style.backgroundColor = "#ffebee";
+        badge.style.color = "#c62828";
+      } else {
+        badge.innerText = "✔ Em Estoque / Pronta Entrega";
+        badge.style.backgroundColor = "#ebfbee";
+        badge.style.color = "#2b8a3e";
+      }
       document.getElementById('prod-img').src = item.imagem;
       document.getElementById('prod-img').alt = item.titulo;
       document.getElementById('prod-title').innerText = item.titulo;
