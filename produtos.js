@@ -33,6 +33,7 @@ const produtos = {
     titulo: "V-Paint Coating Cerâmico para Pintura",
     subtitulo: "Linha Vonixx Premium • Vitrificador de Pintura Automotiva",
     tamanho: "Frasco 20ml",
+    status: "✔ Pronta Entrega", 
     imagem: "img/v-paint.png",
     descricao: "O V-PAINT é um coating de alta performance à base de dióxido de silício, desenvolvido especialmente para proteger a pintura automotiva contra os efeitos do tempo, como sol, chuva e poluição. Ele forma uma camada protetora resistente, com efeito hidrofóbico e durabilidade de até 1 ano. Indicado para todos os tipos de pintura automotiva, o V-PAINT proporciona brilho intenso e facilita a limpeza da superfície.",  
     beneficios: [
@@ -45,8 +46,9 @@ const produtos = {
 
 "acidus": {
     titulo: "Acidus Limpador Ácido 500ml",
-    subtitulo: "Limpador Ácido para Rodas e Pneus",   
-    tamanho: "Frasco 500ml",
+    subtitulo: "Limpador Ácido para Rodas e Pneus",  
+    status: "Sem estoque", //
+    tamanho: "500ml • 1,5L • 5L",
     imagem: "img/acidus-500ml.png",
     descricao: "O Acidus é um limpador ácido desenvolvido para remover sujeiras pesadas, como resíduos de freio, oxidação e incrustações em rodas e pneus. Sua fórmula concentrada proporciona uma limpeza eficaz sem danificar as superfícies, deixando-as limpas e restauradas.",
     beneficios: [
