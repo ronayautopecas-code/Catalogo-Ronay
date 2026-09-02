@@ -29,7 +29,31 @@ const produtos = {
     aplicacao: "1- Lave bem a superfície plástica.<br>2- Faça a descontaminação com Revelax ou limpador similar e microfibra.<br>3- Aplique o produto com aplicador de espuma de forma uniforme.<br>4- Para acabamento fosco ou menos brilho, remova o excesso com microfibra seca.<br><br>Se desejar, aplique uma segunda camada após 3 horas."
   },
 
+"v-paint": {
+    titulo: "V-Paint Coating Cerâmico para Pintura",
+    subtitulo: "Linha Vonixx Premium • Vitrificador de Pintura Automotiva",
+    tamanho: "Frasco 20ml",
+    imagem: "img/v-paint.png",
+    descricao: "O V-PAINT é um coating de alta performance à base de dióxido de silício, desenvolvido especialmente para proteger a pintura automotiva contra os efeitos do tempo, como sol, chuva e poluição. Ele forma uma camada protetora resistente, com efeito hidrofóbico e durabilidade de até 1 ano. Indicado para todos os tipos de pintura automotiva, o V-PAINT proporciona brilho intenso e facilita a limpeza da superfície.",  
+    beneficios: [
+      "⭐ <strong>Durabilidade:</strong> Até 1 ano em pinturas novas e até 6 meses em pinturas usadas.",
+      "🛡️ <strong>Proteção UV:</strong> Evita o desbotamento e oxidação precoce.",
+      "💧 <strong>Hidrorrepelência:</strong> Efeito repelente a líquidos e sujeiras."
+    ],
+    aplicacao: "1. DESCONTAMINAR COM BARRA DESCONTAMINANTE E V-LUB E EM SEGUIDA LIMPAR COM REVELAX;<br>2. APLICAR A QUANTIDADE GENEROSA DE PRODUTO EM MOVIMENTOS HORIZONTAIS USANDO O APLICADOR E A MICROFIBRA DE SUEDE DE MANEIRA UNIFORME;<br>3. CERTIFICAR-SE DO PREENCHIMENTO DE TODA A SUPERFÍCIE;<br>4. REALIZAR ACABAMENTO COM UMA MICROFIBRA LIMPA E SECA."
+},
 
-
-  
+"acidus": {
+    titulo: "Acidus Limpador Ácido 500ml",
+    subtitulo: "Limpador Ácido para Rodas e Pneus",   
+    tamanho: "Frasco 500ml",
+    imagem: "img/acidus-500ml.png",
+    descricao: "O Acidus é um limpador ácido desenvolvido para remover sujeiras pesadas, como resíduos de freio, oxidação e incrustações em rodas e pneus. Sua fórmula concentrada proporciona uma limpeza eficaz sem danificar as superfícies, deixando-as limpas e restauradas.",
+    beneficios: [
+      "⭐ <strong>Limpeza Profunda:</strong> Remove sujeiras pesadas e incrustações.",
+      "🛡️ <strong>Proteção das Superfícies:</strong> Não danifica rodas e pneus quando usado corretamente."
+    ],
+    aplicacao: "1. Dilua o Acidus conforme a necessidade (recomendado 1:10 para sujeiras leves e 1:5 para sujeiras pesadas).<br>2. Aplique o produto sobre a superfície desejada e aguarde alguns minutos.<br>3. Esfregue com escova ou esponja, se necessário.<br>4. Enxágue abundantemente com água."
   }
+}
+
