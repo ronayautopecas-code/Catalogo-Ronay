@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todos os Melhores Produtos | Ronay Auto Peças</title>
+  <style>
+    :root {
+      --primary: #0a3871;
+      --accent: #fbc02d;
+      --bg: #f4f6f8;
+      --card-bg: #ffffff;
+      --text-main: #1f2937;
+      --text-muted: #6b7280;
+      --border-color: #e5e7eb;
+      --whatsapp: #25d366;
+      --whatsapp-hover: #1eb954;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      padding-bottom: 3rem;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 1.5rem auto;
+      padding: 0 1rem;
+    }
+
+    .section-title {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Grid idêntico ao modelo do marketplace (cards limpos em grade responsiva) */
+    .catalog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    .product-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: box-shadow 0.2s ease, transform 0.2s ease;
+      position: relative;
+    }
+
+    .product-card:hover {
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+      transform: translateY(-2px);
+    }
+
+    .product-link {
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    /* Área da Imagem */
+    .image-box {
+      width: 100%;
+      height: 200px;
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.8rem;
+      border-bottom: 1px solid #f3f4f6;
+    }
+
+    .image-box img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      transition: transform 0.2s ease;
+    }
+
+    .product-card:hover .image-box img {
+      transform: scale(1.04);
+    }
+
+    /* Informações do Produto */
+    .card-body {
+      padding: 0.85rem;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: space-between;
+    }
+
+    .product-title {
+      font-size: 0.88rem;
+      font-weight: 600;
+      line-height: 1.35;
+      color: #2b3445;
+      margin-bottom: 0.6rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      min-height: 3.6em;
+    }
+
+    .badge-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #16a34a;
+      background: #f0fdf4;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      align-self: flex-start;
+      margin-bottom: 0.75rem;
+    }
+
+    /* Botão WhatsApp */
+    .btn-zap {
+      background-color: var(--whatsapp);
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-align: center;
+      padding: 0.55rem 0.75rem;
+      border-radius: 6px;
+      display: block;
+      transition: background-color 0.2s ease;
+    }
+
+    .btn-zap:hover {
+      background-color: var(--whatsapp-hover);
+    }
+
+    @media (max-width: 640px) {
+      .catalog-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+      }
+      .image-box {
+        height: 160px;
+      }
+      .card-body {
+        padding: 0.65rem;
+      }
+      .product-title {
+        font-size: 0.82rem;
+        min-height: 3.3em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2 class="section-title">⭐ Todos os Melhores Produtos</h2>
+
+    <div class="catalog-grid">
+
+      <!-- PRODUTO 1: V-light -->
+      <div class="product-card">
+        <a href="produto.html?id=v-light" target="_blank" class="product-link">
+          <div class="image-box">
+            <img src="img/v-light.png" alt="v-light">
+          </div>
+          <div class="card-body">
+            <div class="product-title">Restaurador de farol V-light 20ml</div>
+            <span class="badge-status">✔ Pronta Entrega</span>
+          </div>
+        </a>
+        <div style="padding: 0 0.85rem 0.85rem;">
+          <a href="https://wa.me/5511985823312?text=Clique%20aqui%20para%20saber%20mais" target="_blank" class="btn-zap">
+            Cotar no WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- PRODUTO 2: V-Plastic -->
+      <div class="product-card">
+        <a href="produto.html?id=v-plastic" target="_blank" class="product-link">
+          <div class="image-box">
+            <img src="img/v-plastic.png" alt="V-Plastic Vonixx">
+          </div>
+          <div class="card-body">
+            <div class="product-title">Vitrificador de Plásticos V-Plastic 20ml Vonixx</div>
+            <span class="badge-status">✔ Pronta Entrega</span>
+          </div>
+        </a>
+        <div style="padding: 0 0.85rem 0.85rem;">
+          <a href="https://wa.me/5511985823312?text=Olá!%20Gostaria%20de%20cotar%20o%20V-Plastic%20Vonixx" target="_blank" class="btn-zap">
+            Cotar no WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- PRODUTO 3: Jogo de Velas Magneti Marelli Ka 3 Cilindros -->
+      <div class="product-card">
+        <a href="produto.html" class="product-link">
+          <div class="image-box">
+            <img src="img/velas-ka.png" alt="Jogo De Velas Ignição Magneti Marelli Ka 1.0 12v 3 Cilindros">
+          </div>
+          <div class="card-body">
+            <div class="product-title">Jogo De Velas Ignição Magneti Marelli Ka 1.0 12v 3 Cilindros</div>
+            <span class="badge-status">✔ Pronta Entrega</span>
+          </div>
+        </a>
+        <div style="padding: 0 0.85rem 0.85rem;">
+          <a href="https://wa.me/5511985823312?text=Olá!%20Gostaria%20de%20cotar%20o%20Jogo%20De%20Velas%20Ka%203%20Cilindros" target="_blank" class="btn-zap">
+            Cotar no WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- PRODUTO 4: Cera Blend Spray Vonixx -->
+      <div class="product-card">
+        <a href="produto.html" class="product-link">
+          <div class="image-box">
+            <img src="img/blend.png" alt="Cera Automotiva Líquida Blend Spray Vonixx Carnaúba Sílica">
+          </div>
+          <div class="card-body">
+            <div class="product-title">Cera Automotiva Líquida Blend Spray Vonixx Carnaúba Sílica</div>
+            <span class="badge-status">✔ Pronta Entrega</span>
+          </div>
+        </a>
+        <div style="padding: 0 0.85rem 0.85rem;">
+          <a href="https://wa.me/5511985823312?text=Olá!%20Gostaria%20de%20cotar%20a%20Blend%20Spray%20Vonixx" target="_blank" class="btn-zap">
+            Cotar no WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- PRODUTO 5: Descarbonizante Car80 300ml -->
+      <div class="product-card">
+        <a href="produto.html" class="product-link">
+          <div class="image-box">
+            <img src="img/car80.png" alt="Descarbonizante Car80 300ml Tbi Limpa Bico Carburador 12v">
+          </div>
+          <div class="card-body">
+            <div class="product-title">Descarbonizante Car80 300ml Tbi Limpa Bico Carburador 12v</div>
+            <span class="badge-status">✔ Pronta Entrega</span>
+          </div>
+        </a>
+        <div style="padding: 0 0.85rem 0.85rem;">
+          <a href="https://wa.me/5511985823312?text=Olá!%20Gostaria%20de%20cotar%20o%20Descarbonizante%20Car80" target="_blank" class="btn-zap">
+            Cotar no WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- PRODUTO 6: Limpador Bactericida Bactran 1,5L -->
+      <div class="product-card">
+        <a href="produto.html" class="product-link">
+          <div class="image-box">
+            <img src="img/bactran.png" alt="Limpador Bactericida Bactran 1,5l Vonixx Concentrado">
+          </div>
+          <div class="card-body">
+            <div class="product-title">Limpador Bactericida Bactran 1,5l Vonixx Concentrado</div>
+            <span class="badge-status">✔ Pronta Entrega</span>
+          </div>
+        </a>
+        <div style="padding: 0 0.85rem 0.85rem;">
+          <a href="https://wa.me/5511985823312?text=Olá!%20Gostaria%20de%20cotar%20o%20Bactran%201,5L%20Vonixx" target="_blank" class="btn-zap">
+            Cotar no WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- PRODUTO 7: Aroma Cheirinho Retrovisor New Car -->
+      <div class="product-card">
+        <a href="produto.html" class="product-link">
+          <div class="image-box">
+            <img src="img/aroma-carro.png" alt="Aroma Vonixx Cheirinho Pendurar Carro Retrovisor New Car">
+          </div>
+          <div class="card-body">
+            <div class="product-title">Aroma Vonixx Cheirinho Pendurar Carro Retrovisor New Car</div>
+            <span class="badge-status">✔ Pronta Entrega</span>
+          </div>
+        </a>
+        <div style="padding: 0 0.85rem 0.85rem;">
+          <a href="https://wa.me/5511985823312?text=Olá!%20Gostaria%20de%20cotar%20o%20Aroma%20Vonixx%20New%20Car" target="_blank" class="btn-zap">
+            Cotar no WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- PRODUTO 8: Odorizador Fresh Vintex 1,5L -->
+      <div class="product-card">
+        <a href="produto.html" class="product-link">
+          <div class="image-box">
+            <img src="img/fresh-vintex.png" alt="Odorizador Aromatizante Cheirinho Carro 1,5l Fresh Vintex Fresco">
+          </div>
+          <div class="card-body">
+            <div class="product-title">Odorizador Aromatizante Cheirinho Carro 1,5l Fresh Vintex Fresco</div>
+            <span class="badge-status">✔ Pronta Entrega</span>
+          </div>
+        </a>
+        <div style="padding: 0 0.85rem 0.85rem;">
+          <a href="https://wa.me/5511985823312?text=Olá!%20Gostaria%20de%20cotar%20o%20Odorizador%20Fresh%20Vintex%201,5L" target="_blank" class="btn-zap">
+            Cotar no WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- PRODUTO 9: Limpador Extractus 1,5L -->
+      <div class="product-card">
+        <a href="produto.html" class="product-link">
+          <div class="image-box">
+            <img src="img/extractus.png" alt="Limpador Super Concentrado Linha Vsc Extractus 1,5l">
+          </div>
+          <div class="card-body">
+            <div class="product-title">Limpador Super Concentrado Linha Vsc Extractus 1,5l</div>
+            <span class="badge-status">✔ Pronta Entrega</span>
+          </div>
+        </a>
+        <div style="padding: 0 0.85rem 0.85rem;">
+          <a href="https://wa.me/5511985823312?text=Olá!%20Gostaria%20de%20cotar%20o%20Extractus%201,5L" target="_blank" class="btn-zap">
+            Cotar no WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- PRODUTO 10: Kit Cabo e Vela Siena Strada Idea 1.4 -->
+      <div class="product-card">
+        <a href="produto.html" class="product-link">
+          <div class="image-box">
+            <img src="img/kit-cabo-fire.png" alt="Kit Cabo E Vela Siena Strada Idea 2007 1.0 1.4 8v Flex">
+          </div>
+          <div class="card-body">
+            <div class="product-title">Kit Cabo E Vela Siena Strada Idea 2007 1.0 1.4 8v Flex</div>
+            <span class="badge-status">✔ Pronta Entrega</span>
+          </div>
+        </a>
+        <div style="padding: 0 0.85rem 0.85rem;">
+          <a href="https://wa.me/5511985823312?text=Olá!%20Gostaria%20de%20cotar%20o%20Kit%20Cabo%20e%20Vela%20Fiat%20Fire" target="_blank" class="btn-zap">
+            Cotar no WhatsApp
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
