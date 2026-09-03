@@ -56,6 +56,136 @@ const produtos = {
       "🛡️ <strong>Proteção das Superfícies:</strong> Não danifica rodas e pneus quando usado corretamente."
     ],
     aplicacao: "1. Dilua o Acidus conforme a necessidade (recomendado 1:10 para sujeiras leves e 1:5 para sujeiras pesadas).<br>2. Aplique o produto sobre a superfície desejada e aguarde alguns minutos.<br>3. Esfregue com escova ou esponja, se necessário.<br>4. Enxágue abundantemente com água."
+  },
+"alumax": {
+    titulo: "Alumax Limpador Ácido para Alumínio 500ml",
+    subtitulo: "Limpador Ácido para Superfícies de Alumínio", 
+    status: "✔ Pronta Entrega",
+    tamanho: "1,5L • 5L",
+    imagem: "img/alumax.png", 
+    descricao: "O Alumax é um limpador ácido especialmente formulado para remover oxidação, manchas e sujeiras de superfícies de alumínio, restaurando o brilho natural do metal. Ideal para uso em peças automotivas, utensílios domésticos e outras superfícies de alumínio.",
+    beneficios: [
+      "⭐ <strong>Limpeza Eficaz:</strong> Remove oxidação e manchas de alumínio.",
+      "🛡️ <strong>Proteção das Superfícies:</strong> Não danifica o alumínio quando usado corretamente."
+    ],
+    aplicacao: "1. Dilua o Alumax conforme a necessidade (recomendado 1:10 para sujeiras leves e 1:5 para sujeiras pesadas).<br>2. Aplique o produto sobre a superfície desejada e aguarde alguns minutos.<br>3. Esfregue com escova ou esponja, se necessário.<br>4. Enxágue abundantemente com água."
+  },
+  "aromatizante": {
+    titulo: "Aromatizante Vintex 1,5L",
+    subtitulo: "Aromatizante Automotivo de Longa Duração",
+    status: "✔ Pronta Entrega",
+    tamanho: "1,5L",
+    imagem: "img/aromatizante.png",
+    descricao: "O Aromatizante Vintex é um produto automotivo de longa duração, ideal para manter o interior do veículo com um aroma agradável e fresco. Sua fórmula especial proporciona uma fragrância duradoura e eficaz.",
+    beneficios: [
+      "⭐ <strong>Fragrância Duradoura:</strong> Mantém o interior do veículo com um aroma agradável por mais tempo.",
+      "🛡️ <strong>Facilidade de Uso:</strong> Simples aplicação e distribuição uniforme."
+    ],
+    aplicacao: "1. Abra o frasco do Aromatizante Vintex, e coloque em um frasco spray<br>2. Aplique o produto no interior do veículo, preferencialmente em áreas como o banco, assento e console.<br>3. Espere 10 minutos para fazer efeito do aroma no veículo."
+  },
+  "bactran": {
+    titulo: "Bactran Limpador Bactericida 1,5L",
+    subtitulo: "Limpador Bactericida Concentrado para Superfícies",
+    status: "✔ Pronta Entrega",
+    tamanho: "1,5L • 5L",
+    imagem: "img/bactran.png",
+    descricao: "O Bactran é um limpador bactericida concentrado, desenvolvido para higienizar e desinfetar superfícies, eliminando bactérias e germes de forma eficaz. Ideal para uso em ambientes domésticos, comerciais e automotivos.",
+    beneficios: [
+      "⭐ <strong>Higienização Eficaz:</strong> Elimina bactérias e germes de superfícies.",
+      "🛡️ <strong>Proteção da Saúde:</strong> Contribui para um ambiente mais limpo e seguro."
+    ],
+    aplicacao: "1. Dilua o Bactran conforme a necessidade (recomendado 1:10 para limpeza geral e 1:5 para desinfecção intensa).<br>2. Aplique o produto sobre a superfície desejada e aguarde alguns minutos.<br>3. Esfregue com pano ou esponja, se necessário.<br>4. Enxágue ou limpe com pano úmido, se necessário."
+},
+"extractus": {
+    titulo: "Extractus Limpador Super Concentrado 1,5L",
+    subtitulo: "Limpador Super Concentrado para Limpeza Pesada",
+    status: "✔ Pronta Entrega",
+    tamanho: "1,5L",
+    imagem: "img/extractus.png",
+    descricao: "O Extractus é um limpador super concentrado, desenvolvido para remover sujeiras pesadas e incrustações em diversas superfícies. Sua fórmula potente proporciona uma limpeza eficaz, restaurando a aparência original das superfícies.",
+    beneficios: [
+      "⭐ <strong>Limpeza Profunda:</strong> Remove sujeiras pesadas e incrustações.",
+      "🛡️ <strong>Proteção das Superfícies:</strong> Não danifica superfícies quando usado corretamente."
+    ],
+    aplicacao: "1. Dilua o Extractus conforme a necessidade (recomendado 1:10 para sujeiras leves e 1:5 para sujeiras pesadas).<br>2. Aplique o produto sobre a superfície desejada e aguarde alguns minutos.<br>3. Esfregue com escova ou esponja, se necessário.<br>4. Enxágue abundantemente com água."
+  },
+  "blendallinone": {
+    titulo: "Blend All In One 500 ml",
+    subtitulo: "Limpador Multiuso para Superfícies",
+    status: "✔ Pronta Entrega",
+    tamanho: "500 ml",
+    imagem: "img/blendallinone.png",
+    descricao: "O Blend All In One é um limpador multiuso, desenvolvido para limpar diversas superfícies em ambientes domésticos e comerciais. Sua fórmula versátil proporciona uma limpeza eficaz e segura.",
+    beneficios: [
+      "⭐ <strong>Multiuso:</strong> Elimina riscos e swirls médios a severos; Propoerciona brilho e ótimo acabamento.",
+      "🛡️ <strong>Segurança:</strong> Proteção com carnaúba e Sio2 e hidrorrepelência por até 4 meses."
+    ],
+    aplicacao: "1. Agite bem antes de usar.<br>2. Aplique de 4 a 5 gotas na boina.<br>3. Trabalhe em áreas de até 60x60cm.<br>4. Remova com uma microfibra macia."
+  }, 
+  "blendwax": {
+    titulo: "Blend Spray Wax cera híbrida com sio2 e canaúba",
+    subtitulo: "Cera Híbrida para Proteção e Brilho",
+    status: "✔ Pronta Entrega",
+    tamanho: "500 ml",
+    imagem: "img/blendwax.png",
+    descricao: "O Blend Spray Wax é uma cera híbrida, desenvolvida para proporcionar proteção e brilho duradouros em superfícies. Sua fórmula única combina carnaúba e Sio2, oferecendo resistência e hidrorrepelência.",
+    beneficios: [
+      "⭐ <strong>Proteção Duradoura:</strong> Oferece proteção contra riscos e sujeiras.",
+      "🛡️ <strong>Brilho Intenso:</strong> Proporciona um brilho excepcional que dura por meses."
+    ],
+    aplicacao: "1. Agite bem antes de usar.<br>2. Com o veículo lavado, pulverize na pintura.<br>3. Trabalhe em áreas de até 60x60cm.<br>4. Sem deixar secar, finalize com microfibra seca."
+  },
+  "blendcleanerwax": {
+    titulo: "Blend Cleaner Wax Cera Limpadora",
+    subtitulo: "Cera Limpadora para Limpeza e Proteção",
+    status: "✔ Pronta Entrega",
+    tamanho: "500 ml",
+    imagem: "img/blendcleanerwax.png",
+    descricao: "O Blend Cleaner Wax é uma cera limpadora, desenvolvida para limpar e proteger superfícies. Sua fórmula única oferece uma limpeza eficaz e proteção duradoura.",
+    beneficios: [
+      "⭐ <strong>Limpeza Eficiente:</strong> Remove sujeiras e resíduos de forma eficaz.",
+      "🛡️ <strong>Proteção:</strong> Proporciona proteção contra riscos e sujeiras."
+    ],
+    aplicacao: "1. Agite bem antes de usar.<br>2. Aplique sobre a superfície desejada.<br>3. Esfregue com esponja ou pano.<br>4. Enxágue abundantemente com água."
+  },
+  "blendcleanerblack": {
+    titulo: "Blend Cleaner Black Edition Cera Limpadora",
+    subtitulo: "Cera Limpadora para Limpeza e Proteção",
+    status: "✔ Pronta Entrega",
+    tamanho: "500 ml",
+    imagem: "img/blendcleanerblack.png",
+    descricao: "O Blend Cleaner Black Edition é uma cera limpadora, desenvolvida para limpar e proteger superfícies. Sua fórmula única oferece uma limpeza eficaz e proteção duradoura.",
+    beneficios: [
+      "⭐ <strong>Limpeza Eficiente:</strong> Remove sujeiras e resíduos de forma eficaz.",
+      "🛡️ <strong>Proteção:</strong> Proporciona proteção contra riscos e sujeiras."
+    ],
+    aplicacao: "1. Agite bem antes de usar.<br>2. Aplique sobre a superfície desejada.<br>3. Esfregue com esponja ou pano.<br>4. Enxágue abundantemente com água."
+  },
+  "cheirinhos": {
+    titulo: "Cheirinhos Da Vonixx 5 cheiros",
+    subtitulo: "Cheiros para Ambientes",
+    status: "✔ Pronta Entrega",
+    tamanho: "Bandeira com 5 cheiros",
+    imagem: "img/cheirinhos.png",
+    descricao: "Os Cheirinhos Da Vonixx com as fragrâncias (apple and cinnaman, cold black, fine leather, hot coffee e new car) ideais para aromatizar seu carro.",
+    beneficios: [
+      "⭐ <strong>Multiaroma:</strong> Oferece 5 cheiros diferentes para escolha.",
+      "🛡️ <strong>Prático:</strong> Fácil de usar e armazenar."
+    ],
+    aplicacao: "1. Retire o aromatizante da embalagem.<br>2. Remova o plástico lentamente e de forma gradual.<br>3. Pendure em local adequado, sem encostar na superfície."
+  },
+  "cherry": {
+    titulo: "Cera Cherry Remove micro-riscos e impurezas",
+    subtitulo: "Cera de Alta Performance para Pintura Automotiva",
+    status: "✔ Pronta Entrega",
+    tamanho: "1 L",
+    imagem: "img/cherry.png",
+    descricao: "A Cera Cherry é uma cera de alta performance, desenvolvida para remover micro-riscos e impurezas de superfícies automotivas e intensificando o brilho da pintura.",
+    beneficios: [
+      "⭐ <strong>Remoção Eficiente:</strong> Remove micro-riscos e impurezas de forma eficaz.",
+      "🛡️ <strong>Proteção:</strong> Proporciona proteção contra riscos e sujeiras."
+    ],
+    aplicacao: "1. Agite bem antes de usar.<br>2. Aplique com um aplicador de microfibra ou estopa.<br>3. Aguarde pelo menos 5 minutos.<br>4. Remova com uma microfibra limpa, macia e seca."
   }
-}
 
+}
